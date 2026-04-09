@@ -1,0 +1,128 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #007BFF, #00c6ff);
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* NAV */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1a73e8;
+}
+
+/* MAIN */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 50px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+/* TEXT */
+p {
+    margin-bottom: 15px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* MEDIA */
+img, video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* FORM */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
